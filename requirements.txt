@@ -1,0 +1,9 @@
+numpy
+spleeter
+pydub
+soundfile
+pyAudioAnalysis
+requests
+librosa
+moviepy
+pytube
