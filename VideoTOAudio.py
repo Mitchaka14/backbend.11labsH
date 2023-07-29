@@ -28,6 +28,6 @@ def extract_audio_from_video(video_path, output_dir):
 
 
 if __name__ == "__main__":
-    video_path = "trialMedia/bandicam 2023-07-23 20-51-46-536.mp4"
-    output_dir = "trialMedia"
+    video_path = "Media/bandicam 2023-07-23 20-51-46-536.mp4"
+    output_dir = "Media"
     extract_audio_from_video(video_path, output_dir)

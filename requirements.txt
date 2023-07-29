@@ -7,3 +7,5 @@ requests
 librosa
 moviepy
 pytube
+python-dotenv
+srt
