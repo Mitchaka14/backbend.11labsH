@@ -1,0 +1,35 @@
+Initialization (__init__): The VTranslator class is initialized with a base folder, video input, and two tokens. It sets up an output directory.
+
+Video Processing (process_video): This method is where the main process takes place. It's divided into several steps:
+
+Video Download: If the video input is a YouTube URL, it downloads the video using the download_youtube_video function from the video_processing module.
+
+Audio Extraction: It extracts the audio from the video using the extract_audio_from_video function from the video_processing module.
+
+Vocal Separation: It separates the vocals from the audio using the separate_vocals function from the vocal_separation module.
+
+Audio Splitting: It splits the vocal audio into chunks using the split_audio function from the audio_processing module.
+
+Audio Chunk Processing: It processes each audio chunk (presumably doing some kind of analysis or transformation) using the process_audio_chunks function from the audio_processing module.
+
+Transcription: It creates a transcription file from the results of the audio chunk processing.
+
+Audio and Transcription Processing: It processes the vocal audio and the transcription file using the process_audio_and_transcription_file function from the test2 module.
+
+Audio Overlay: It overlays the audios using the overlay_audios function from the audioVideoOverlay module.
+
+Video Audio Replacement: It replaces the audio in the video with the new overlayed audio using the replace_video_audio function from the audioVideoOverlay module.
+
+The main functions involved in this process are:
+
+video_processing.download_youtube_video
+video_processing.extract_audio_from_video
+vocal_separation.separate_vocals
+audio_processing.split_audio
+audio_processing.process_audio_chunks
+test2.process_audio_and_transcription_file
+audioVideoOverlay.overlay_audios
+audioVideoOverlay.replace_video_audio
+Each function needs to be defined in its respective module for this script to work.
+
+If you need a more detailed breakdown of what each function does, I'd need more details or the code of these functions, master.
